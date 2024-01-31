@@ -17,10 +17,25 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    justify-content: space-between;
+}
+
+.logo-title{
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
 }
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+}
+
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +87,5 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
 }
